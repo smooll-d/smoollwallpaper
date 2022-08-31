@@ -4,7 +4,7 @@ SmoollWallpaper (swall) is a simple command line script for setting video wallpa
 
 ------------------------------------------------------------------------
 
-[[GETTING STARTED]("https://www.github/reallySmooll/smoollwallpaper/wiki/Getting-Started")] [[GETTING STARTED (CONTRIBUTING)]("https://www.github.com/reallySmool/smoollwallpaper/wiki/Getting-Started-(Contributing)")] [[RELEASE NOTES]("https://www.github.com/reallySmooll/smoollwallpaper/RELEASE_NOTES.md")] [[LICENSE]("https://www.github.com/really/smoollwallpaper/LICENSE")] [[CONTRIBUTING]("https://www.github.com/reallySmooll/smoollwallpaper/CONTRIBUTING.md")] [[CODE OF CONDUCT]("https://www.github.com/reallySmooll/smoollwallpaper/CODE_OF_CONDUCT.md")]
+[[GETTING STARTED]("https://www.github/reallySmooll/smoollwallpaper/wiki/Getting-Started")] | [[GETTING STARTED (CONTRIBUTING)]("https://www.github.com/reallySmool/smoollwallpaper/wiki/Getting-Started-(Contributing)")] | [[RELEASE NOTES]("https://www.github.com/reallySmooll/smoollwallpaper/RELEASE_NOTES.md")] | [[LICENSE]("https://www.github.com/really/smoollwallpaper/LICENSE")] | [[CONTRIBUTING]("https://www.github.com/reallySmooll/smoollwallpaper/CONTRIBUTING.md")] | [[CODE OF CONDUCT]("https://www.github.com/reallySmooll/smoollwallpaper/CODE_OF_CONDUCT.md")]
 
 ------------------------------------------------------------------------
 
@@ -24,7 +24,7 @@ SmoollWallpaper (swall) is a simple command line script for setting video wallpa
 
 - [ ] An install script to automatically install dependencies
 
-- I will come up with other features in the future
+I will come up with more features in the future :)
 
 ------------------------------------------------------------------------
 
