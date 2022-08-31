@@ -4,7 +4,7 @@ SmoollWallpaper (swall) is a simple command line script for setting video wallpa
 
 ------------------------------------------------------------------------
 
-[GETTING STARTED](https://www.github/reallySmooll/smoollwallpaper/wiki/Getting-Started) | [GETTING STARTED (CONTRIBUTING)](https://www.github.com/reallySmool/smoollwallpaper/wiki/Getting-Started-(Contributing)) | [RELEASE NOTES](https://www.github.com/reallySmooll/smoollwallpaper/blob/master/RELEASE_NOTES.md) | [LICENSE](https://www.github.com/really/smoollwallpaper/blob/master/LICENSE.md) | [CONTRIBUTING](https://www.github.com/reallySmooll/smoollwallpaper/blob/master/CONTRIBUTING.md) | [CODE OF CONDUCT](https://www.github.com/reallySmooll/smoollwallpaper/blob/master/CODE_OF_CONDUCT.md)
+[GETTING STARTED](https://www.github/reallySmooll/smoollwallpaper/wiki/Getting-Started) | [GETTING STARTED (CONTRIBUTING)](https://www.github.com/reallySmool/smoollwallpaper/wiki/Getting-Started-(Contributing)) | [RELEASE NOTES](https://www.github.com/reallySmooll/smoollwallpaper/blob/master/RELEASE_NOTES.md) | [LICENSE](https://github.com/reallySmooll/smoollwallpaper/blob/master/LICENSE) | [CONTRIBUTING](https://www.github.com/reallySmooll/smoollwallpaper/blob/master/CONTRIBUTING.md) | [CODE OF CONDUCT](https://www.github.com/reallySmooll/smoollwallpaper/blob/master/CODE_OF_CONDUCT.md)
 
 ------------------------------------------------------------------------
 
