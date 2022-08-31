@@ -137,7 +137,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://www.github.com/re
 
 ### Your First Code Contribution
 
-If you'd like to contribute directly by improving the code, then check out this wiki page: [Getting Stared (Contributing)]("https://www.github.com/reallySmooll/smoollwallpaper/wiki/Getting-Started-(Contributing)")
+If you'd like to contribute directly by improving the code, then check out this wiki page: [Getting Stared (Contributing)](https://www.github.com/reallySmooll/smoollwallpaper/wiki/Getting-Started-(Contributing))
 
 ## Attribution
 
