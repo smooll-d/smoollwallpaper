@@ -14,7 +14,9 @@ def config_file():
                           "\n# Opacity level (how transparent should mpv be, from 0 to 1": None,
                           "opacity": 1.0,
                           "\n# Priority level (-20 = highest, 20 = lowest)": None,
-                          "priority": 20 }
+                          "priority": 20,
+                          "\n# Whether to pause the wallpaper or not when not focused on the desktop": None,
+                          "pause": "true"}
     config["VARIABLES"] = { "# Desktop Window ID (DON'T TOUCH!)": None,
                             "dwid": get_window_id.dwid }
 
@@ -29,6 +31,7 @@ def config_file():
             config_file.path     = config.get("OPTIONS", "path")
             config_file.opacity  = config.get("OPTIONS", "opacity")
             config_file.priority = config.get("OPTIONS", "priority")
+            config_file.pause    = config.get("OPTIONS", "pause")
 
             config_file.dwid     = config.get("VARIABLES", "dwid")
 
@@ -57,6 +60,7 @@ def config_file():
             config_file.path     = config.get("OPTIONS", "path")
             config_file.opacity  = config.get("OPTIONS", "path")
             config_file.priority = config.get("OPTIONS", "priority")
+            config_file.pause    = config.get("OPTIONS", "pause")
 
             config_file.dwid     = config.get("VARIABLES", "dwid")
 
