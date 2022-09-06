@@ -45,17 +45,15 @@ SmoollWallpaper (swall) is a simple Python script for setting video wallpapers o
 
 - Script pauses automatically if desktop is not focused
 
-## Upcoming features
+- Option to not pause the script automatically when the desktop is not focused
+
+## Upcoming features (hopefully)
 
 - Normal wallpapers
 
 - Graphical interface
 
 - Command line interface
-
-- Option to not pause the script automatically when the desktop is not focused
-
-- An install script to automatically install dependencies
 
 I will come up with more features in the future :)
 
