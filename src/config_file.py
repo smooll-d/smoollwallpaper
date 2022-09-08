@@ -9,9 +9,11 @@ def config_file():
 
     config = configparser.ConfigParser(allow_no_value=True)
     config.optionxform = str
-    config["OPTIONS"] = { "# Path to your wallpaper": None,
-                          "path": f"{utils.HOME}/path/to/wallpaper",
-                          "\n# Opacity level (how transparent should mpv be, from 0 to 1": None,
+    config["OPTIONS"] = { "# Path to your wallpaper (video)": None,
+                          "path-vid": f"{utils.HOME}/path/to/wallpaper",
+                          "\n# Path to your wallpaper (image)": None,
+                          "path-img": f"{utils.HOME}/path/to/wallpaper",
+                          "\n\n# Opacity level (how transparent should mpv be, from 0 to 1": None,
                           "opacity": 1.0,
                           "\n# Priority level (-20 = highest, 20 = lowest)": None,
                           "priority": 20,
@@ -28,7 +30,9 @@ def config_file():
 
             config.read(utils.CONFIG_FILE)
 
-            config_file.path     = config.get("OPTIONS", "path")
+            config_file.path_vid = config.get("OPTIONS", "path-vid")
+            config_file.path_img = config.get("OPTIONS", "path-img")
+
             config_file.opacity  = config.get("OPTIONS", "opacity")
             config_file.priority = config.get("OPTIONS", "priority")
             config_file.pause    = config.get("OPTIONS", "pause")
@@ -57,8 +61,10 @@ def config_file():
 
             config.read(utils.CONFIG_FILE)
 
-            config_file.path     = config.get("OPTIONS", "path")
-            config_file.opacity  = config.get("OPTIONS", "path")
+            config_file.path_vid = config.get("OPTIONS", "path-vid")
+            config_file.path_img = config.get("OPTIONS", "path-img")
+
+            config_file.opacity  = config.get("OPTIONS", "opacity")
             config_file.priority = config.get("OPTIONS", "priority")
             config_file.pause    = config.get("OPTIONS", "pause")
 
