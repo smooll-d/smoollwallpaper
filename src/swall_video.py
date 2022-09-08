@@ -13,7 +13,7 @@ def main():
 
     config_file()
     try:
-        print("\nswall: Path = " + config_file.path)
+        print("\nswall: Path = " + config_file.path_vid)
         print("swall: Opacity = " + config_file.opacity)
         print("swall: Priority level = " + config_file.priority)
         print("swall: Pause = " + config_file.pause)
