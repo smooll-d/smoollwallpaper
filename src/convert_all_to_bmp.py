@@ -1,12 +1,9 @@
 from PIL import Image
-from pathlib import Path 
 
 from config_file import config_file
 
 def convert_all_to_bmp():
-    filename = Path(config_file.path_img)
-    img = Image.open(filename)
+    convert_all_to_bmp.img = Image.open(config_file.path_img)
+    convert_all_to_bmp.img.save(f"{config_file.path_img}.bmp")
 
-    img_convert = img.save(filename.with_suffix(".png"))
-
-    print(img_convert)
+    convert_all_to_bmp.converted_image_path = f"{config_file.path_img}.bmp"
