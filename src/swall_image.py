@@ -14,7 +14,6 @@ def main():
     config_file()
     try:
         print("\nswall: Path = " + config_file.path_img)
-        print("swall: Colorscheme = " + config_file.colorscheme)
     except AttributeError:
         print("\nPlease set your path in the swall.conf config file.")
         print(f"You can find it at \"{utils.CONFIG_FILE}\".")

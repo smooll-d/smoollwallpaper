@@ -18,9 +18,7 @@ def config_file():
                           "\n# Priority level (-20 = highest, 20 = lowest)": None,
                           "priority": 20,
                           "\n# Whether to pause the wallpaper or not when not focused on the desktop": None,
-                          "pause": "true",
-                          "\n# Colorscheme (if you're on GNOME <= 42 leave this option untouched)": None,
-                          "colorscheme": "light" }
+                          "pause": "true" }
     config["VARIABLES"] = { "# Desktop Window ID (DON'T TOUCH!)": None,
                             "dwid": get_window_id.dwid }
 
@@ -32,15 +30,14 @@ def config_file():
 
             config.read(utils.CONFIG_FILE)
 
-            config_file.path_vid    = config.get("OPTIONS", "path-vid")
-            config_file.path_img    = config.get("OPTIONS", "path-img")
+            config_file.path_vid = config.get("OPTIONS", "path-vid")
+            config_file.path_img = config.get("OPTIONS", "path-img")
 
-            config_file.opacity     = config.get("OPTIONS", "opacity")
-            config_file.priority    = config.get("OPTIONS", "priority")
-            config_file.pause       = config.get("OPTIONS", "pause")
-            config_file.colorscheme = config.get("OPTIONS", "colorscheme")
+            config_file.opacity  = config.get("OPTIONS", "opacity")
+            config_file.priority = config.get("OPTIONS", "priority")
+            config_file.pause    = config.get("OPTIONS", "pause")
 
-            config_file.dwid        = config.get("VARIABLES", "dwid")
+            config_file.dwid     = config.get("VARIABLES", "dwid")
 
             if config_file.dwid != get_window_id.dwid:
                 config_file.dwid = get_window_id.dwid
@@ -64,15 +61,14 @@ def config_file():
 
             config.read(utils.CONFIG_FILE)
 
-            config_file.path_vid    = config.get("OPTIONS", "path-vid")
-            config_file.path_img    = config.get("OPTIONS", "path-img")
+            config_file.path_vid = config.get("OPTIONS", "path-vid")
+            config_file.path_img = config.get("OPTIONS", "path-img")
 
-            config_file.opacity     = config.get("OPTIONS", "opacity")
-            config_file.priority    = config.get("OPTIONS", "priority")
-            config_file.pause       = config.get("OPTIONS", "pause")
-            config_file.colorscheme = config.get("OPTIONS", "colorscheme")
+            config_file.opacity  = config.get("OPTIONS", "opacity")
+            config_file.priority = config.get("OPTIONS", "priority")
+            config_file.pause    = config.get("OPTIONS", "pause")
 
-            config_file.dwid        = config.get("VARIABLES", "dwid")
+            config_file.dwid     = config.get("VARIABLES", "dwid")
 
             if config_file.dwid != get_window_id.dwid:
                 config_file.dwid = get_window_id.dwid
