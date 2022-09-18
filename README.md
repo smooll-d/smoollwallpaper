@@ -5,8 +5,8 @@ SmoollWallpaper (swall) is a simple Python script for setting video wallpapers o
 ***
 
 <p align="center">
-	<a href="https://www.github.com/reallySmooll/smoollwallpaper/releases/tag/v1.2.1" alt="Version">
-		<img src="https://img.shields.io/badge/VERSION-1.2.1-pink?style=for-the-badge" />
+	<a href="https://www.github.com/reallySmooll/smoollwallpaper/releases/tag/v1.2.2" alt="Version">
+		<img src="https://img.shields.io/badge/VERSION-1.2.2-pink?style=for-the-badge" />
 	</a>
 	<a href="https://www.github.com/reallySmooll/smoollwallpaper/issues/" alt="Issues">
 		<img src="https://img.shields.io/github/issues/reallySmooll/smoollwallpaper?style=for-the-badge&color=brightgreen" />
