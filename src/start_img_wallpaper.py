@@ -20,8 +20,16 @@ for (i = 0; i < allDesktops.length; i++) {
     plasma.evaluateScript(jscript % (plugin, plugin, filepath))
 
 def start_img_wallpaper():
+    # GNOME
     if utils.XDG_CURRENT_DESKTOP == "GNOME":
         os.system(f"gsettings set org.gnome.desktop.background picture-uri \"file://{config_file.path_img}\"")
         os.system(f"gsettings set org.gnome.desktop.background picture-uri-dark \"file://{config_file.path_img}\"")
+    # KDE >= 5.7
     elif utils.KDE_FULL_SESSION == True:
         setKDEwallpaper(config_file.path_img)
+    # LXDE/PCmanFM
+    elif utils.XDG_CURRENT_DESKTOP == "LXDE":
+        os.system(f"pcmanfm --set-wallpaper \"{config_file.path_img}\"")
+    # LXQt/PCmanFM-qt
+    elif utils.XDG_CURRENT_DESKTOP == "LXQt":
+        os.system(f"pcmanfm-qt --set-wallpaper \"{config_file.path_img}\"")

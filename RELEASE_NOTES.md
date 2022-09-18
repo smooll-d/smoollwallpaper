@@ -2,6 +2,15 @@
 
 Release notes for SmoollWallpaper.
 
+***
+
+## v1.2.2 - LX(DE/Qt) Wallpapers | 18/09/2022
+
+- Added LXDE/PCmanFM and LXQt/PCmanFM-qt wallpaper changing
+- For GitHub project: Added `Dependabot`
+- For GitHub project: Added `Getting Started (Normal Wallpapers)` wiki page
+- And more small changes
+
 ## v1.2.1 | 16/09/2022
 
 - Added KDE wallpaper changing
