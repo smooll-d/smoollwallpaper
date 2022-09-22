@@ -66,7 +66,7 @@ Happy desktop customization! :D
 
 - Normal wallpapers (desktops supported):
 	- GNOME
-	- KDE >=5.7
+	- KDE >=5.7 (currently not available)
 	- LXDE/PCmanFM
 	- LXQt/PCmanFM-qt
 
