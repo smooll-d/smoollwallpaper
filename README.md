@@ -5,8 +5,8 @@ SmoollWallpaper (swall) is a simple Python script for setting video wallpapers o
 ***
 
 <p align="center">
-	<a href="https://www.github.com/reallySmooll/smoollwallpaper/releases/tag/v1.2.2" alt="Version">
-		<img src="https://img.shields.io/badge/VERSION-1.2.2-pink?style=for-the-badge" />
+	<a href="https://www.github.com/reallySmooll/smoollwallpaper/releases/tag/v1.3.0" alt="Version">
+		<img src="https://img.shields.io/badge/VERSION-1.3.0-pink?style=for-the-badge" />
 	</a>
 	<a href="https://www.github.com/reallySmooll/smoollwallpaper/issues/" alt="Issues">
 		<img src="https://img.shields.io/github/issues/reallySmooll/smoollwallpaper?style=for-the-badge&color=brightgreen" />
@@ -53,6 +53,8 @@ It also allows using images as wallpapers, but this option is `WIP` (Work In Pro
 If you'd like to get started on using my magnum opus ('cause let's be honest, I will probably never make something better), you can go to the [Getting Started wiki page](https://www.github.com/reallySmooll/smoollwallpaper/wiki/Getting-Started) or you can click on one of the badges above that says `GETTING STARTED`. There's a normal wallpaper version as well. You can go [here](https://www.github.com/reallySmooll/smoollwallpaper/wiki/Getting-Started-(Normal-Wallpapers)) or you can click on the `GETTING STARTED (NORMAL WALLPAPERS)` badge above.
 
 Happy desktop customization! :D
+
+And btw, the security scans are passing: [![Codacy Security Scan](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/codacy.yml/badge.svg?branch=master)](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/codacy.yml)
 
 ***
 
