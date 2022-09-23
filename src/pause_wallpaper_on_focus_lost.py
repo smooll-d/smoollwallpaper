@@ -7,7 +7,7 @@ def pause_wallpaper_on_focus_lost():
     try:
         while True:
             get_window_id()
-            print("swall: Active WID: " + get_window_id.awid, end="\r")
+            print("Active WID: " + get_window_id.awid, end="\r")
 
             if get_window_id.awid != config_file.dwid:
                 os.system("kill -STOP $(pgrep mpv)")
