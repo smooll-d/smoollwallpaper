@@ -1,5 +1,4 @@
 import os
-import dbus
 
 import utils
 from config_file import config_file
