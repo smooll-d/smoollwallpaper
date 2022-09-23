@@ -54,7 +54,7 @@ If you'd like to get started on using my magnum opus ('cause let's be honest, I 
 
 Happy desktop customization! :D
 
-And btw, the security scans are passing: [![Codacy Security Scan](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/codacy.yml/badge.svg?branch=master)](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/codacy.yml)
+[![Codacy Security Scan](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/codacy.yml/badge.svg?branch=master)](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/codacy.yml) [![Python application](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/reallySmooll/smoollwallpaper/actions/workflows/python-app.yml)
 
 ***
 
