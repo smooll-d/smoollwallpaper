@@ -1,6 +1,11 @@
 # SmoollWallpaper
 
-SmoollWallpaper (swall) is a simple Python script for setting video wallpapers on Linux.
+<p align="center">
+	<img src="./assets/swlogo.png" />
+	<sub><i>"Smooll" pronounced "small".</i></sub>
+</p>
+
+SmoollWallpaper (swall, pronounced `swall` and not `s-wall`) is a simple Python script for setting video wallpapers on Linux.
 
 ***
 
