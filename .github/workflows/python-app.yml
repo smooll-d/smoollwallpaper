@@ -19,8 +19,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
+    - name: Set up Python 3.6-3.10
+      uses: actions/setup-python@v4.2.0
       with:
         python-version-file: ".python-version"
     - name: Install dependencies
