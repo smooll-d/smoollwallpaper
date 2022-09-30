@@ -1,9 +1,9 @@
 import os
 import configparser
-import utils
 
+from . import utils
 from .get_window_id import get_window_id
-from ..SwallLogger import SwallLogger
+from .SwallLogger import SwallLogger
 
 sl = SwallLogger("config_file")
 
