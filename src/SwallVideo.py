@@ -3,11 +3,11 @@ import sys
 
 from colorama import init, deinit, Fore, Style
 
-from imports import utils
-from imports.config_file import config_file
-from imports.pause_wallpaper_on_focus_lost import pause_wallpaper_on_focus_lost
-from imports.start_wallpaper import start_wallpaper
-from SwallLogger import SwallLogger
+from . import utils
+from .config_file import config_file
+from .pause_wallpaper_on_focus_lost import pause_wallpaper_on_focus_lost
+from .start_wallpaper import start_wallpaper
+from .SwallLogger import SwallLogger
 
 sl = SwallLogger("swall")
 

@@ -2,10 +2,10 @@ import sys
 
 from colorama import init, deinit, Fore, Style
 
-from imports import utils
-from imports.config_file import config_file
-from imports.start_img_wallpaper import start_img_wallpaper
-from SwallLogger import SwallLogger
+from . import utils
+from .config_file import config_file
+from .start_img_wallpaper import start_img_wallpaper
+from .SwallLogger import SwallLogger
 
 sl = SwallLogger("swall")
 
