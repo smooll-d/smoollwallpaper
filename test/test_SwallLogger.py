@@ -8,3 +8,6 @@ def test_SwallLogger():
     sl.warning("This is a warning message.")
     sl.error("This is an error message.")
     sl.critical("This is a critical message.")
+
+if __name__ == "__main__":
+    test_SwallLogger()
