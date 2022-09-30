@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
 
+from src.__version__ import __version__
+
 setup(
     name="SmoollWallpaper",
-    version="1.4.0-alpha.23",
+    version=__version__,
     packages=find_packages(),
     install_requires=[
         "click",
