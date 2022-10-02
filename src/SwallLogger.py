@@ -8,20 +8,22 @@ class SwallLogger:
 
         self.name = name
         self.logger = logging.getLogger(self.name)
+        
+        if not self.logger.handlers:
+            self.logger.setLevel(logging.DEBUG)
+            self.logger.propagate = False
 
-        self.logger.setLevel(logging.DEBUG)
+            ch = logging.StreamHandler()
+            ch.setLevel(logging.DEBUG)
 
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
+            formatter = logging.Formatter(
+                fmt="(%(asctime)s) | [%(levelname)s] - %(name)s: %(message)s",
+                datefmt="%H:%M:%S"
+            )
 
-        formatter = logging.Formatter(
-            fmt="(%(asctime)s) | [%(levelname)s] - %(name)s: %(message)s",
-            datefmt="%H:%M:%S"
-        )
+            ch.setFormatter(formatter)
 
-        ch.setFormatter(formatter)
-
-        self.logger.addHandler(ch)
+            self.logger.addHandler(ch)
 
         deinit()
 
