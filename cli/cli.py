@@ -2,20 +2,31 @@ import click
 
 from src.SwallVideo import SwallVideo
 from src.SwallImage import SwallImage
-from src.__version__ import __version__
+from src import metadata
 
 sv = SwallVideo()
 si = SwallImage()
 
-def version():
-        print(f"SmoollWallpaper v.{__version__} made by Jakub Skowron <jakubskowron676@gmail.com>")
+def swall_version():
+    click.echo(f"{metadata.__name__} v.{metadata.__version__}")
 
-@click.command()
-@click.option("--version", is_flag=True, callback=version, is_eager=True, expose_value=False, help="Show version.")
-def swall_vid():
+@click.group(invoke_without_command=True)
+@click.option("-v", "--version", is_flag=True, required=False, help="Show version.")
+def swall(version):
+    """_summary_
+    """
+    if version:
+        swall_version()
+        exit(0)
+
+@swall.command()
+def vid():
+    """Set video (.mp4) as wallpaper.
+    """
     sv.swall_video()
 
-@click.command()
-@click.option("--version", is_flag=True, callback=version, is_eager=True, expose_value=False, help="Show version.")
-def swall_img():
+@swall.command()
+def img():
+    """Set image of choice as wallpaper.
+    """
     si.swall_image()
