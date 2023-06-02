@@ -65,23 +65,16 @@ Happy desktop customization! :D
 
 ## Features
 
-- Video wallpapers
+[x] Video wallpapers
 
-- Script pauses automatically if desktop is not focused
+[x] Script pauses automatically if desktop is not focused
 
-- Option to not pause the script automatically when the desktop is not focused
+[x] Option to not pause the script automatically when the desktop is not focused
 
-- Normal wallpapers (desktops supported):
+[x] Normal wallpapers (desktops supported):
 	- GNOME
-	- KDE >=5.7 (currently not available)
-	- LXDE/PCmanFM
-	- LXQt/PCmanFM-qt
 
-## Upcoming features (hopefully)
-
-- Graphical interface
-
-- Command line interface
+[ ] Graphical interface
 
 I will come up with more features in the future :)
 
