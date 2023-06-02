@@ -5,18 +5,10 @@ from . import utils
 from .get_window_id import get_window_id
 from .SwallLogger import SwallLogger
 
-sl = SwallLogger("config_file")
+sl = SwallLogger("SwallConfig")
 
 class SwallConfig:
-    def __init__(self, verbose=True):
-        self.verbose  = verbose
-        self.path_vid = ""
-        self.path_img = ""
-        self.opacity  = 0
-        self.priority = 0
-        self.pause    = ""
-        self.dwid     = get_window_id.dwid
-
+    def __init__(self):
         get_window_id()
         
         self.config = configparser.ConfigParser(allow_no_value=True)
@@ -35,13 +27,11 @@ class SwallConfig:
                                      "dwid": get_window_id.dwid }
         
     def read(self):
-        if self.verbose:
-            sl.info("Searching for swall.conf...")
+        sl.info("Searching for swall.conf...")
         if os.path.exists(utils.CONFIG_FOLDER):
             if os.path.exists(utils.CONFIG_FILE):
-                if self.verbose:
-                    sl.info("swall.conf found!")
-                    sl.info("swall: Reading swall.conf...\n")
+                sl.info("swall.conf found!")
+                sl.info("swall: Reading swall.conf...\n")
 
                 self.config.read(utils.CONFIG_FILE)
 
@@ -62,9 +52,8 @@ class SwallConfig:
                     with open(utils.CONFIG_FILE, "w") as configfile:
                         self.config.write(configfile)
             else:
-                if self.verbose:
-                    sl.info("swall.conf not found!")
-                    sl.info("Creating swall.conf...\n")
+                sl.info("swall.conf not found!")
+                sl.info("Creating swall.conf...\n")
 
                 with open(utils.CONFIG_FILE, "w") as configfile:
                     self.config.write(configfile)
@@ -72,9 +61,8 @@ class SwallConfig:
             os.makedirs(utils.CONFIG_FOLDER)
 
             if os.path.exists(utils.CONFIG_FILE):
-                if self.verbose:
-                    sl.info("swall.conf found!")
-                    sl.info("Reading swall.conf...\n")
+                sl.info("swall.conf found!")
+                sl.info("Reading swall.conf...\n")
 
                 self.config.read(utils.CONFIG_FILE)
 
@@ -95,17 +83,15 @@ class SwallConfig:
                     with open(utils.CONFIG_FILE, "w") as configfile:
                         self.config.write(configfile)
             else:
-                if self.verbose:
-                    sl.info("swall.conf not found!")
-                    sl.info("Creating swall.conf...\n")
+                sl.info("swall.conf not found!")
+                sl.info("Creating swall.conf...\n")
 
                 with open(utils.CONFIG_FILE, "w") as configfile:
                     self.config.write(configfile)
         
     def write(self, var, config_var):
         if os.path.exists(utils.CONFIG_FILE):
-            if self.verbose:
-                sl.info(f"Writing variable: {var} to {utils.CONFIG_FILE}...")
+            sl.info(f"Writing variable: {var} to {utils.CONFIG_FILE}...")
             
             self.config.read(utils.CONFIG_FILE)
             
