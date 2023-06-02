@@ -65,16 +65,16 @@ Happy desktop customization! :D
 
 ## Features
 
-[x] Video wallpapers
+- [x] Video wallpapers
 
-[x] Script pauses automatically if desktop is not focused
+- [x] Script pauses automatically if desktop is not focused
 
-[x] Option to not pause the script automatically when the desktop is not focused
+- [x] Option to not pause the script automatically when the desktop is not focused
 
-[x] Normal wallpapers (desktops supported):
+- [x] Normal wallpapers (desktops supported):
 	- GNOME
 
-[ ] Graphical interface
+- [ ] Full rewrite with graphical interface (coming, v2.0.0)
 
 I will come up with more features in the future :)
 
