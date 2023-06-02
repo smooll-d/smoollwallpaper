@@ -74,6 +74,8 @@ Happy desktop customization! :D
 - [x] Normal wallpapers (desktops supported):
 	- GNOME
 
+- [ ] Graphical interface (coming with full rewrite, v2.0.0)
+
 I will come up with more features in the future :)
 
 ***
