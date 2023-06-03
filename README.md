@@ -1,5 +1,7 @@
 # SmoollWallpaper
 
+**NOTE: SmoollWallpaper is not being developed anymore. If you'd like to, you can fork this and try to develop it yourself.**
+
 <p align="center">
 	<img src="./assets/swlogo.png" />
 	<sub><i>"Smooll" pronounced "small".</i></sub>

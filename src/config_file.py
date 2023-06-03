@@ -17,7 +17,7 @@ class SwallConfig:
                                  "path-vid": f"{utils.HOME}/path/to/wallpaper",
                                  "\n# Path to your wallpaper (image)": None,
                                  "path-img": f"{utils.HOME}/path/to/wallpaper" }
-        self.config["OPTIONS"] = { "\n# Opacity level (how transparent should mpv be, from 0 to 1": None,
+        self.config["OPTIONS"] = { "\n# Opacity level (how transparent should mpv be, from 0.0 to 1.0": None,
                                    "opacity": 1.0,
                                    "\n# Priority level (-20 = highest, 20 = lowest)": None,
                                    "priority": 20,
